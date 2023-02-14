@@ -18,9 +18,10 @@
     </head>
     <body class="font-sans antialiased">
         <x-jet-banner />
-
-        <div class="min-h-screen bg-gray-100">
-            @livewire('navigation-menu')
+        
+        {{-- IMPORTANTE DESCOMENTAR ESTA LINEA PARA VER EL GESTOR DE USUARIOS --}}
+        {{-- <div class="min-h-screen bg-gray-100">
+            @livewire('navigation-menu') --}}
 
             <!-- Page Heading -->
             @if (isset($header))

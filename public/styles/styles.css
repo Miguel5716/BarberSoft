@@ -90,9 +90,14 @@ body.dark {
 .sidebar li .icon {
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: center;;
 	min-width: 60px;
 	font-size: 20px;
+	margin-left: 0px;
+}
+
+.sidebar li .sublist {
+	margin-left: 10px;
 }
 
 .sidebar li .icon,
